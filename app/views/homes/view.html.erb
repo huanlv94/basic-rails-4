@@ -1,0 +1,22 @@
+<div class="clear"></div>
+<div class="row">
+	<div class="col-md-6">
+		<label>Thong ke tu ngay: </label></br>
+		<input type="text" value=""></br>
+		<label>Den ngay: </label></br>
+		<input type="text" value=""></br>
+		<button type="button" class="btn btn-success">Thong ke</button>
+	<%= link_to 'Quan ly Products', products_path,:class => "btn btn-primary" %>
+	</div>
+</div>
+<div class="row">
+  <!-- Line Chart - Single Series -->
+  <div class="col-xs-12 col-md-12">
+    <h3>Thong ke Doanh Thu Ban San Pham</h3>
+    <% @products.each do |t| %>
+    <%= column_chart [
+	  {name: "Doanh Thu", data: t.DoanhThu }
+	] %>
+	<% end %>
+  </div>
+</div>

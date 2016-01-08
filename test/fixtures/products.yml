@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  MaSP: 
+  TenSP: 
+  GiaBan: 
+  NgaySanXuat: 
+  SoLuongBan: 
+  DoanhThu: 
+
+two:
+  MaSP: 
+  TenSP: 
+  GiaBan: 
+  NgaySanXuat: 
+  SoLuongBan: 
+  DoanhThu: 
